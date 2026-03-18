@@ -1,0 +1,29 @@
+- name: "shiva"
+  bob: "1999-08-16"
+  mobileNumber: "1234567890"
+  address: 
+  - flatNumber: "104"
+    street: : "gandhi nagar"
+    city: "hyderabad"
+    type: "current"
+
+  - flatNumber: "104"
+    street: : "gandhi nagar"
+    city: "hyderabad"
+    type: "current"
+
+- name: "suresh"
+  bob: "1999-07-16"
+  mobileNumber: "1234567899"
+  address: 
+  - flatNumber: "105"
+    street: : "gandhi sagar"
+    city: "chennai"
+    type: "permanent"
+    
+  - flatNumber: "104"
+    street: : "gandhi nagar"
+    city: "hyderabad"
+    type: "current"      
+
+
