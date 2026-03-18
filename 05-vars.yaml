@@ -1,0 +1,13 @@
+- name: paly level variables
+  hosts: local
+  connection: local
+  vars:
+    COURSE: "devops with aws"
+    DURATION: "3 months"
+    TRAINER: "shiva"
+  tasks: 
+  - name: print variables
+    vars:
+      COURSE: "ansible"
+    ansible.builtin.debug:
+      msg: "course is:{{ COURSE }} , trainer is :{{ TRAINER }}"
