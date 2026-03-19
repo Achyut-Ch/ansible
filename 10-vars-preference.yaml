@@ -1,0 +1,17 @@
+- name: varialble preference
+  hosts: local
+  connection: local
+  vars:
+    NAME: "ansible from play"
+  vars_files:
+  - couse.yaml
+  vars_prompt:
+  - name: NAME
+    prompt: please enter name
+    private: false
+  tasks:
+  - name: print name
+    vars:
+      NAME: "ansible from task"  
+    ansible.builtin.debug:
+      msg: "hi {{ NAME }}"   
