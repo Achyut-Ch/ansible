@@ -1,7 +1,7 @@
 - name: demo on conditions
   hosts: local
   connection: local
-  var:
+  vars:
     IS_LIVE: true
   tasks:
   - name: check live or not
